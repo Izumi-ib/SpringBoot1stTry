@@ -24,4 +24,20 @@ One controller, one text endpoint, one Thymeleaf page.
 # GET /greeting
 - Returns an HTML page rendered by Thymeleaf, logo displayed at this page
 
+
+## Usage / Use Case
+
+The application displays a value passed via URL parameter.
+
+### Example
+
+Open in browser:
+
+`http://localhost:8080/greeting?name=DisneyPrincess`
+
+The value of the parameter is displayed on the Thymeleaf page.
+
+
+![](screenshots/img.png)
+
 ## Finish
